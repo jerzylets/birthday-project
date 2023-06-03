@@ -76,7 +76,7 @@
   }
 
   .ticket__button {
-    max-width: 70%;
+    max-width: 80%;
   }
 }
 
@@ -198,5 +198,9 @@
 
   .ticket__content {
     width: 100%;
+  }
+
+  .btn-up {
+    display: block;
   }
 }

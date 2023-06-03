@@ -147,7 +147,7 @@ circle {
   font-weight: 700;
   font-size: var(--font-16);
   line-height: var(--font-20);
-  color: var(--white-color);
+  color: var(--body-color);
   background-color: var(--orange-dark);
 }
 
@@ -364,6 +364,21 @@ circle {
   margin: 0 auto;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+}
+
+.btn-up {
+  position: fixed;
+  top: 20%;
+  left: 5%;
+  display: none;
+  padding: 5px 10px;
+  opacity: .95;
+  /* border: 1px solid var(--dark-gray); */
+  /* box-shadow: 5px 5px 0 0 var(--light-gray); */
+}
+
+.btn-up--hide {
+  display: none;
 }
 
 .popup {
