@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday</title>
+  <link rel="icon" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Первый блок -->
+    <div class="content-block block-1">
+      <div class="block-1__wrapper">
+        <!-- <img class="block-1__image" src="img/main.jpg" alt="Подарок"> -->
+      </div>
+      <h1 class="block-1__title">С ДНЁМ</h1>
+      <h1 class="block-1__title block-1__title--accented">РОЖДЕНИЯ!</h1>
+      <p class="block-1__text">
+        НАТАША, МЫ&nbsp;ТЕБЯ ЛЮБИМ&nbsp;♡
+      </p>
+      <p class="block-1__text block-1__text--continued">
+        В подарок тебе эти билетики — на случай, когда в жизни срочно понадобится кнопка «Сделать так, чтобы всё стало
+        хорошо»
+      </p>
+    </div>
+    <!-- Второй блок -->
+    <div class="content-block block block--left flex">
+      <span class="block__text">Выбери желание</span>
+      <h2 class="block__title">Оторви билетик</h2>
+      <div class="content-block__grid grid">
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/party.jpg" alt="Вечеринка" id="img1">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title1">
+                Моя вечеринка
+              </h3>
+              <p class="ticket__text" id="text1">
+                На&nbsp;контент-вечеринку пришли все
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn1">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn1').onclick = function () {
+                alert("Вселенная тебя услышала! Используй новообретённую силу мудро и не забудь сообщить всем время для сбора.");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/do-not-touch.jpg" alt="Средний палец" id="img2">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title2">
+                Всё идёт по плану
+              </h3>
+              <p class="ticket__text" id="text2">
+                Не&nbsp;разрывают и&nbsp;не&nbsp;трогают целый рабочий день
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn2">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn2').onclick = function () {
+                alert("Слушаюсь и повинуюсь! Сейчас же сообщу в небесный порядок.");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/fewerbacklog.jpg" alt="Кровь из носа" id="img3">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title3">
+                Любимый размер
+              </h3>
+              <p class="ticket__text" id="text3">
+                Бэклог становится меньше с&nbsp;каждым днём
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn3">
+              Оторвать&nbsp;билетик
+            </button>
+            <script defer>document.querySelector('#btn3').onclick = function () {
+                alert("Уже исполняю 👍");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/mistakes.jpg" alt="Будь мужиком" id="img4">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title4">
+                Муля, не нервируй меня!
+              </h3>
+              <p class="ticket__text" id="text4">
+                Контент не&nbsp;косячит 1&nbsp;день (24&nbsp;часа)
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn4">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn4').onclick = function () {
+                alert("Запускаю режим «Суперкоманда 3000».");
+              }
+            </script>
+          </div>
+        </article>
+      </div>
+    </div>
+    <!-- Третий блок -->
+    <div class="content-block block block--right flex">
+      <span class="block__text">Выбери желание</span>
+      <h2 class="block__title">Оторви билетик</h2>
+      <div class="content-block__grid grid">
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/zoom.jpg" alt="Кёрмит дэбает" id="img5">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title5">
+                Алло, Галочка?
+              </h3>
+              <p class="ticket__text" id="text5">
+                Интернет вывозит всё, даже демонстрацию в&nbsp;зуме
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn5">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn5').onclick = function () {
+                alert("Читаю «Заговор на интернет». Рекомендуется повышение эффективности заговора с помощью пинка провайдеру.");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/cat.jpg" alt="Кот-итальянец" id="img6">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title6">
+                Улыбка без кота
+              </h3>
+              <p class="ticket__text" id="text6">
+                Кот не&nbsp;мешает работать
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn6">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn6').onclick = function () {
+                alert("Свежие новости — в третьем чтении Госдума приняла закон, запрещающий тыгдыки в рабочее время.");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/workday.jpg" alt="Со слезами на глазах" id="img7">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title7">
+                Я устал, хочу любви
+              </h3>
+              <p class="ticket__text" id="text7">
+                Работа только в свой официальный рабочий день, без&nbsp;переработок
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn7">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn7').onclick = function () {
+                alert("И сериальчик новый посмотрим, да?");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/customers.jpg" alt="Взгляд с поднятой бровью" id="img8">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title8">
+                А что, так можно было?!
+              </h3>
+              <p class="ticket__text" id="text8">
+                К&nbsp;вопросу сразу прикрепляют ссылки на&nbsp;таск
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn8">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn8').onclick = function () {
+                alert("Готово. Пока, правда, настраиваюсь — учусь силой мысли вызывать ещё и позицию пиара.");
+              }
+            </script>
+          </div>
+        </article>
+      </div>
+    </div>
+    <!-- Четвёртый блок -->
+    <div class="content-block block block--left flex">
+      <span class="block__text">Выбери желание</span>
+      <h2 class="block__title">Оторви билетик</h2>
+      <div class="content-block__grid grid">
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/zero-tasks.jpg" alt="Сердечко" id="img9">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title9">
+                Отдыхаем хорошо
+              </h3>
+              <p class="ticket__text" id="text9">
+                Заказчики выделили 0&nbsp;тасков на&nbsp;планировании
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn9">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn9').onclick = function () {
+                alert("Вжух! Немного поколдую, чтобы и на следующее планирование много не приносили.");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/urgent.jpg" alt="Взгляд на часы" id="img10">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title10">
+                Здесь и сейчас
+              </h3>
+              <p class="ticket__text" id="text10">
+                Контент собрался в&nbsp;зум сам вовремя
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn10">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn10').onclick = function () {
+                alert("Даже топор показвать не пришлось — уже исполнено!");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/not-broken.jpg" alt="Два сойджека" id="img11">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title11">
+                Лучшая работа в мире
+              </h3>
+              <p class="ticket__text" id="text11">
+                Ничего не&nbsp;ломают после смены и&nbsp;в&nbsp;выходные
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn11">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn11').onclick = function () {
+                alert("Достаю прибор для выпрямления рук 👿");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/standalone.jpg" alt="Сердечко" id="img12">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title12">
+                Ты такой хороший
+              </h3>
+              <p class="ticket__text" id="text12">
+                Контент справляется со&nbsp;всеми задачами самостоятельно
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn12">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn12').onclick = function () {
+                alert("Достаю балалайку и сборник мотивирующих частушек — будем исполнять!");
+              }
+            </script>
+          </div>
+        </article>
+      </div>
+    </div>
+    <!-- Пятый блок -->
+    <div class="content-block block block--right flex">
+      <span class="block__text">Выбери желание</span>
+      <h2 class="block__title">Оторви билетик</h2>
+      <div class="content-block__grid grid">
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/chat.jpg" alt="Офисному работнику нечего делать" id="img13">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title13">
+                Пусто без тебя
+              </h3>
+              <p class="ticket__text" id="text13">
+                Операционка все выходные не&nbsp;приходит в&nbsp;чат &laquo;Кавычки&raquo;
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn13">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn13').onclick = function () {
+                alert(" 10%..............    Загружаю мощное, непреодолимое желание подумать и разобраться самостоятельно. Для подтверждения такого мощного колдунства, нажмите «Ок».");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/mail.jpg" alt="Довольный человек" id="img14">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title14">
+                Полковнику никто не пишет
+              </h3>
+              <p class="ticket__text" id="text14">
+                На&nbsp;почту больше не&nbsp;приходит миллион призывов
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn14">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn14').onclick = function () {
+                alert("Только «Миллион, миллион, миллион алых роз!»");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/attach.jpg" alt="Ничего себе!" id="img15">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title15">
+                We made it
+              </h3>
+              <p class="ticket__text" id="text15">
+                Заказчики пишут подробное и&nbsp;понятное&nbsp;ТЗ к&nbsp;таску
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn15">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn15').onclick = function () {
+                alert("И вот как именно они это делают: Пункт1... Кгхм, прошу прощения, впечатлился. Уже исполняю.");
+              }
+            </script>
+          </div>
+        </article>
+        <article class="block__item ticket flex">
+          <img class="ticket__img" src="img/ontime.jpg" alt="Куча сердечек" id="img16">
+          <div class="ticket__content flex">
+            <div class="ticket__wrapper">
+              <h3 class="ticket__title" id="title16">
+                Ты просто сделай меня счастливым
+              </h3>
+              <p class="ticket__text" id="text16">
+                Срочные таски соответствуют критериям срочности
+              </p>
+            </div>
+            <button class="ticket__button btn-status btn-reset btn" id="btn16">
+              Оторвать&nbsp;билетик
+            </button>
+            <script>document.querySelector('#btn16').onclick = function () {
+                alert("Направляю заряд положительной энергии в связи с этим знаменательным событием. Если вы согласны на получение, улыбнитесь 😊");
+              }
+            </script>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+</html>
