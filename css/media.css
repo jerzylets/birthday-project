@@ -64,7 +64,7 @@
   }
 
   .content-block__grid {
-    grid-template-columns: minmax(695px, 950px);
+    grid-template-columns: minmax(695px, 70px);
   }
 
   .ticket__img {
@@ -202,5 +202,9 @@
 
   .btn-up {
     display: block;
+  }
+
+  .btn-up--hide {
+    display: none;
   }
 }

@@ -377,10 +377,6 @@ circle {
   /* box-shadow: 5px 5px 0 0 var(--light-gray); */
 }
 
-.btn-up--hide {
-  display: none;
-}
-
 .popup {
   position: fixed;
   top: 40%;
